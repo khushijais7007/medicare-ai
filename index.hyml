@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MediCare AI</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div style="text-align:center;margin-bottom:20px;">
+  <h1>💙 MediCare AI</h1>
+  <p>Your Smart Personal Health Companion</p>
+</div>
+
+  <div class="container">
+    <h1>💊 MediCare AI</h1>
+    <button onclick="toggleDarkMode()">🌙 Toggle Dark Mode</button>
+    <p>Your Smart Medicine Reminder & Health Assistant</p>
+
+    <h2>Add Medicine</h2>
+    <input type="text" id="medicineName" placeholder="Medicine Name">
+    <input type="time" id="medicineTime">
+    <button onclick="addMedicine()">Add Medicine</button>
+
+    <ul id="medicineList"></ul>
+
+    <h2>Doctor Appointment</h2>
+    <input type="date" id="appointmentDate">
+    <input type="text" id="doctorName" placeholder="Doctor Name">
+    <button onclick="saveAppointment()">Save Appointment</button>
+
+    <p id="appointmentResult"></p>
+
+    <h2>Symptom Checker</h2>
+    <input type="text" id="symptom" placeholder="Enter symptom (e.g. fever)">
+    <button onclick="checkSymptom()">Check</button>
+
+    <p id="symptomResult"></p>
+    <h2>📊 Health Dashboard</h2>
+<p>Total Medicines: <span id="medicineCount">0</span></p>
+<p>Water Glasses Today: <span id="waterDashboard">0</span></p>
+  </div>
+<hr>
+
+<h2>👨‍👩‍👧 Family Medicine Tracker</h2>
+<input type="text" id="familyName" placeholder="Family Member Name">
+<input type="text" id="familyMedicine" placeholder="Medicine Name">
+<button onclick="addFamilyMedicine()">Add Record</button>
+
+<ul id="familyList"></ul>
+
+<hr>
+
+<h2>📞 Emergency Contact</h2>
+<input type="text" id="emergencyName" placeholder="Contact Name">
+<input type="tel" id="emergencyPhone" placeholder="Phone Number">
+<button onclick="saveEmergency()">Save Contact</button>
+
+<p id="emergencyResult"></p>
+
+<hr>
+
+<h2>💧 Daily Water Tracker</h2>
+<button onclick="drinkWater()">+ 1 Glass</button>
+<p id="waterCount">Glasses Today: 0</p>
+  <script src="script.js"></script>
+  <h2>💡 Daily Health Tip</h2>
+<p id="healthTip">
+Eat fresh fruits 🍎, drink enough water 💧, and get 7–8 hours of sleep 😴.
+</p>
+</body>
+</html>
