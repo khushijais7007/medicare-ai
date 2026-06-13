@@ -35,4 +35,4 @@ This project includes a **simulated integration of Microsoft Work IQ / Foundry I
 - Mobile app version  
 
 ## 📌 Project Goal
-To provide a simple, user-friendly health management system with AI-inspired features for better daily health tracking.
+To provide a simple, user-friendly health management system with AI-inspired features for better daily health tracking
